@@ -1,38 +1,12 @@
-// import { useState, useEffect } from "react"
-import './App.css'
-import ChatAI from './components/ChatAI'
-import Navbar from './components/Navbar'
-import Sidebar from './components/Sidebar'
-import Statistics from './components/Statistics'
-// import CircularIcon from './components/CircularIcon';
+import Main from './components/Main';
+import './App.css';
 
-// import {Routes, Route, BrowserRouter} from "react-router-dom"
-
-function App() {
-  // const [count,setCount]=useState(0);
-  //  useEffect(()=>{
-  //     const interval=setInterval(()=>{
-  //       setCount(count=>count+1);
-  //     },1000)
-
-  //     return ()=>{
-  //       clearInterval(interval);
-  //     }
-  //   },[])
-
+const App = () => {
   return (
-    <div>
-      <Navbar />
-    {/* <BrowserRouter> */}
-      {/* <Routes> */}
-
-    <ChatAI />
-      <Statistics />
-        <Sidebar />
-        {/* </Routes> */}
-    {/* </BrowserRouter> */}
+    <div className="h-screen bg-gradient-to-b from-shubham-end1 via-shubham-end to-shubham-end1">
+      <Main />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

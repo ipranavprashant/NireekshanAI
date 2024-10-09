@@ -1,0 +1,2 @@
+  // <div className='h-screen' style={{ background: 'radial-gradient(circle, rgba(17, 110, 116, 0.6)) 0%, rgba(29, 30, 29, 1) 70%)' }}>
+
