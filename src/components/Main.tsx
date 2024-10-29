@@ -1,6 +1,7 @@
 // import DetailsCard from './DetailsCard'
 import ChatAI from './ChatAI'
 import DetailsCard from './DetailsCard'
+import GreenThemedMap from './GreenThemedMap'
 import Navbar from './Navbar'
 import Sidebar from './Sidebar'
 import Statistics from './Statistics'
@@ -20,6 +21,7 @@ function Main() {
       <Statistics />
       <DetailsCard />
     </div>
+    <GreenThemedMap />
     </div>
   )
 }
